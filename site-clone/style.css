@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    height: 10vh;
+}
+
+.font-size-auto {
+    font-size: 0.7rem;
+}
+
+.company-name {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 2px white;
+    font-size: 2rem;
+}
+
+.company-slogan {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px white;
+    font-size: 1rem;
+}
+
+* {
+    border: 1px solid red;
+}
